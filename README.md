@@ -2,6 +2,7 @@
 
 # fleshscraper
 Janky, unfinished script for scraping emails from FreshService written in Python using the "delegate tickets" feature in FreshService
+
 PLEASE DON'T USE THIS SCRIPT FOR EVIL AND MALICE, USE THIS SCRIPT LEGALLY IN A COOL, NICE AND RESPONSIBLE WAY :) 
 
 This script is based off this write-up by Mohammed Moiz Pasha: https://infosecwriteups.com/hundreds-of-companies-internal-data-exposed-part-2-the-freshservice-misconfiguration-a9432c0b5dc8

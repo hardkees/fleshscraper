@@ -35,7 +35,7 @@ session = requests.Session()
 
 list_output = []
 count = 0
-request = requests.get(url=args.url, params=params, cookies=cookies, headers=headers)
+request = requests.get(url=args.url, params=params, cookies=cookies, headers=headers, timeout=10)
 if request.text not in "[]":
     print(f"{args.url} not valid. Did not receive expected expected response")
     print("Status code: " + str(request.status_code))
